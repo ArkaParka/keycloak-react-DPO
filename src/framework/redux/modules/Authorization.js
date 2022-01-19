@@ -62,12 +62,12 @@ const scheduleTokenRefresh = (dispatch, authContext) => {
 	setInterval(() => {
 		keycloak
 			.updateToken(TOKEN_REFRESH_RATE)
-			.success(refreshed => {
+			.then(refreshed => {
 				if (refreshed) {
 					dispatch(updateToken(keycloak.token));
 				} // else, token is still valid
 			})
-			.error(() => {
+			.catch(() => {
 				// eslint-disable-next-line no-console
 				console.error('Failed to retrieve an updated token or session has expired.');
 				dispatch(logout({ now: true }));

@@ -1,6 +1,6 @@
 accountManagement: accountManagement()
 ​
-authServerUrl: "http://192.168.1.6:8080/auth"
+authServerUrl: "http://localhost:8080/auth/"
 ​
 authenticated: true
 ​
@@ -10,7 +10,7 @@ clearToken: function clearToken()
 ​
 clientId: "primereact-client"
 ​
-clientSecret: "4dbc4e64-97d2-4ed6-a0ca-98bc22e69575"
+clientSecret: "mCIgCA57p8DcJW8af5uelElEsJxul8HD"
 ​
 createAccountUrl: function createAccountUrl()​
 createLoginUrl: function createLoginUrl()​

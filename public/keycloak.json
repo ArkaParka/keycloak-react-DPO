@@ -1,10 +1,12 @@
 {
-  "realm": "primereact-app",
-  "auth-server-url": "http://192.168.1.101:8080/auth/",
+  "realm": "DPO",
+  "auth-server-url": "http://localhost:8080/auth/",
   "ssl-required": "external",
-  "resource": "primereact-client",
+  "resource": "login-app",
+  "verify-token-audience": true,
   "credentials": {
-    "secret": "4dbc4e64-97d2-4ed6-a0ca-98bc22e69575"
+    "secret": "mCIgCA57p8DcJW8af5uelElEsJxul8HD"
   },
+  "use-resource-role-mappings": true,
   "confidential-port": 0
 }

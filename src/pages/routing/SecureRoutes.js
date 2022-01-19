@@ -15,10 +15,10 @@ export const withSecurity = SecureComponent => props => {
 				const keycloakInstance = Keycloak('/keycloak.json');
 				keycloakInstance
 					.init({ onLoad: 'login-required' })
-					.success(authenticated => {
+					.then(authenticated => {
 						resolve(keycloakInstance);
 					})
-					.error(e => {
+					.catch(e => {
 						console.log("Authentication failed: " + e)
 					});
 			});
