@@ -12,7 +12,7 @@ import 'fullcalendar/dist/fullcalendar.css';
 import './layout/layout.css';
 import './App.css';
 import * as AuthorizationActions from './framework/redux/modules/Authorization';
-import Home from './components/Home'
+import Home from './components/Home/Home'
 import Dashboard from './components/Dashboard';
 import Documentation from './components/Documentation';
 import CustomerList from './pages/secure/Customers/CustomerList';

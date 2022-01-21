@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Doubleplus";
+    font-style: normal;
+    font-weight: 400;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Doubleplus"),
+        /* Если не получилось, загрузит woff2 */
+    url("/Doubleplus.ttf") format("ttf")
+}
+
+@font-face {
+    font-family: "Vtks";
+    font-style: normal;
+    font-weight: 400;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("VtksPropriedade-BV2n"),
+        /* Если не получилось, загрузит woff2 */
+    url("/VtksPropriedade-BV2n.ttf") format("ttf")
+}

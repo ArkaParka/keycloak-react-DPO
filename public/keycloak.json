@@ -1,12 +1,10 @@
 {
-  "realm": "DPO",
-  "auth-server-url": "http://localhost:8080/auth/",
+  "realm": "EDU",
+  "auth-server-url": "http://localhost:8080/auth/realms/EDU", // https://keycloak.local.dev/auth/realms/EDU
   "ssl-required": "external",
-  "resource": "login-app",
-  "verify-token-audience": true,
+  "resource": "",
   "credentials": {
-    "secret": "mCIgCA57p8DcJW8af5uelElEsJxul8HD"
+    "secret": "5ayDbsvzPQtQDq875s5pMLAgQ7IZLPAX"
   },
-  "use-resource-role-mappings": true,
   "confidential-port": 0
 }
